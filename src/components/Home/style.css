@@ -1,0 +1,43 @@
+.start-right-container {
+    display: none;
+}
+
+.geral-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #343A40;
+     
+}
+
+.start-left-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 20%;
+    color: white;
+    animation: fadeInRight 1s;
+}
+.start-right-container {
+    animation: pulse 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.button-start {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #FD377E;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media ( min-width: 900px ) {
+    .start-right-container {
+        display: block;
+    }
+}

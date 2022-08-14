@@ -1,0 +1,15 @@
+@media ( min-width: 900px ) {
+    .body {
+        display: flex;
+        flex-direction: column;
+    }
+    .dashboard-form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        animation: backInUp 1s;
+    }
+    .dashboard-form, .dashboard-total {
+        gap: 35px;
+    }
+  }

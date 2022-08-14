@@ -1,0 +1,19 @@
+.total-container {
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #E9ECEF;
+    border-radius: 5px;
+}
+.total-value {
+    font-size: 1.3rem;
+}
+.price {
+    color: #FD377E;
+    font-size: 1.3rem;
+}
+.total-description {
+    font-size: 0.8rem;
+}
